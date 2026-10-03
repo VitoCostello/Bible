@@ -4,8 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bibles</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/8ecd517ba7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+  <div class="find-page">
+
+    <section class="find-hero">
+      <div class="parking-cars">
+        <img class = "bible__background"src="./assets/Bible__Background__image.jpg">
+      </div>
+
+      <header class="navbar find-navbar">
+        <a class="logo logo-light" href="index.html">
+          <i class="fa-solid fa-book-bible"></i>
+          <span>Bibles</span>
+        </a>
+
+        <nav class="nav-links">
+          <a class="nav-dark" href="index.html">Home</a>
+          <a class="nav-dark" href="bibles.html">Bibles</a>
+        </nav>
+      </header>
+
+      <div class="find-content">
+        <h1 class="find-title">Browse Different types of NLT, NIV and CSB Bibles</h1>
+
+        <form class="find-search" action="find-your-car.html">
+          <input
+            type="search"
+            name="search"
+            placeholder="Search Bible Version, Language or Keyword"
+          >
+          <button type="submit" aria-label="Search" class="submit-button">
+            <span class="search-icon" aria-hidden="true"></span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <div class="purple-line"></div>
+
+    <main class="results-area">
+      <div class="results-top">
+        <h2 class="results-title">Bible Search results:</h2>
+
+        <section class="price-panel" aria-label="Price filter">
+
+        </section>
+      </div>
+
+      <div class="loading" aria-label="Loading"></div>
+    </main>
+
+  </div>
 </body>
 </html>
